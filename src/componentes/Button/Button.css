@@ -3,12 +3,12 @@ button {
 
   padding: 12px 22px;
 
-  border-radius: 12px;
+  border-radius: 10px;
+
+  cursor: pointer;
 
   font-size: 15px;
   font-weight: bold;
-
-  cursor: pointer;
 
   transition: 0.3s;
 }
@@ -18,18 +18,25 @@ button:hover {
 }
 
 .btn-entrar {
-  background: #38bdf8;
-  color: #0f172a;
+  background: #2563eb;
+  color: white;
 }
 
 .btn-destaque {
-  margin-top: 50px;
+  width: 220px;
 
   background: #0f172a;
   color: white;
 }
 
 .btn-footer {
-  background: #38bdf8;
+  background: white;
   color: #0f172a;
+}
+
+.btn-adicionar {
+  background: #2563eb;
+  color: white;
+
+  width: 140px;
 }

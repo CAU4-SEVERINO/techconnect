@@ -1,32 +1,40 @@
 .main {
-  padding: 80px 40px;
-  text-align: center;
-
-  background: linear-gradient(to bottom, #e0f2fe, #f8fafc);
+  padding: 40px;
+  background: #f4f7fb;
 }
 
-.main h1 {
-  font-size: 52px;
-  color: #0f172a;
-
-  margin-bottom: 20px;
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
 }
 
-.main p {
-  font-size: 18px;
-  color: #475569;
+.cards-area {
+  width: 60%;
 
-  max-width: 700px;
-  margin: auto;
-  line-height: 1.6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 25px;
 }
 
-.cards {
-  margin-top: 60px;
+.side-content {
+  width: 40%;
 
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  flex-direction: column;
+  gap: 25px;
+}
 
-  flex-wrap: wrap;
+.side-content h1 {
+  font-size: 52px;
+  color: #0f172a;
+  line-height: 1.2;
+}
+
+.side-content p {
+  font-size: 18px;
+  color: #475569;
+  line-height: 1.6;
 }

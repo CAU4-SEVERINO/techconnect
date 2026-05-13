@@ -15,40 +15,68 @@ function Main() {
   return (
     <main className="main">
 
-      <h1>Conectando inovação e tecnologia</h1>
+      <section className="main-container">
 
-      <p>
-        A TechConnect desenvolve soluções digitais modernas para empresas
-        que desejam crescer através da tecnologia, automação e inovação.
-      </p>
+        <div className="cards-area">
 
-      <div className="cards">
+          <Card
+            titulo="Desenvolvimento Web"
+            descricao="Sites modernos e responsivos."
+            destaque={destaque}
+          />
 
-        <Card
-          titulo="Desenvolvimento Web"
-          descricao="Sites modernos, rápidos e totalmente responsivos."
-          destaque={destaque}
-        />
+          <Card
+            titulo="Aplicativos Mobile"
+            descricao="Apps Android e iOS."
+            destaque={destaque}
+          />
 
-        <Card
-          titulo="Aplicativos Mobile"
-          descricao="Aplicativos Android e iOS com foco em desempenho."
-          destaque={destaque}
-        />
+          <Card
+            titulo="Banco de Dados"
+            descricao="Estruturas seguras."
+            destaque={destaque}
+          />
 
-        <Card
-          titulo="Banco de Dados"
-          descricao="Estruturas seguras para armazenamento de informações."
-          destaque={destaque}
-        />
+          <Card
+            titulo="Cloud Computing"
+            descricao="Serviços em nuvem."
+            destaque={destaque}
+          />
 
-      </div>
+          <Card
+            titulo="Cyber Segurança"
+            descricao="Proteção digital avançada."
+            destaque={destaque}
+          />
 
-      <Button
-        texto="Mostrar Destaque"
-        acao={mostrarDestaque}
-        classe="btn-destaque"
-      />
+          <Card
+            titulo="Inteligência Artificial"
+            descricao="Automação inteligente."
+            destaque={destaque}
+          />
+
+        </div>
+
+        <div className="side-content">
+
+          <h1>
+            Tecnologia que conecta empresas ao futuro
+          </h1>
+
+          <p>
+            A TechConnect oferece soluções modernas para
+            transformar ideias em inovação digital.
+          </p>
+
+          <Button
+            texto="Mostrar Destaque"
+            acao={mostrarDestaque}
+            classe="btn-destaque"
+          />
+
+        </div>
+
+      </section>
 
     </main>
   )
