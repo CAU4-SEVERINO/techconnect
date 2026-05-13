@@ -1,0 +1,35 @@
+button {
+  border: none;
+
+  padding: 12px 22px;
+
+  border-radius: 12px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.btn-entrar {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.btn-destaque {
+  margin-top: 50px;
+
+  background: #0f172a;
+  color: white;
+}
+
+.btn-footer {
+  background: #38bdf8;
+  color: #0f172a;
+}

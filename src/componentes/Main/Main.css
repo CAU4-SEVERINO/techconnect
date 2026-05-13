@@ -1,0 +1,32 @@
+.main {
+  padding: 80px 40px;
+  text-align: center;
+
+  background: linear-gradient(to bottom, #e0f2fe, #f8fafc);
+}
+
+.main h1 {
+  font-size: 52px;
+  color: #0f172a;
+
+  margin-bottom: 20px;
+}
+
+.main p {
+  font-size: 18px;
+  color: #475569;
+
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.cards {
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
